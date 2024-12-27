@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.27)  27 DEC 2024 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.27)  27 DEC 2024 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -308,61 +308,28 @@ Class cj Warning: No received date.
 
 Class cj Warning: No accepted date.
 
-
-LaTeX Warning: Reference `fig:model' on page 1 undefined on input line 62.
-
-
-LaTeX Warning: Reference `fig:registration' on page 1 undefined on input line 62.
-
+No file BruteForceDictMitigation.bbl.
 [1{C:/Users/joaog/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-
-]
-
-LaTeX Warning: Citation `Figl2013' on page 2 undefined on input line 104.
-
-
-LaTeX Warning: Citation `Genon2011' on page 2 undefined on input line 107.
-
-
-LaTeX Warning: Reference `fig:registracija' on page 2 undefined on input line 130.
-
-
-LaTeX Warning: Citation `ZZPPZ' on page 2 undefined on input line 151.
-
-
-LaTeX Warning: Citation `iib' on page 2 undefined on input line 153.
-
-[2]
-Underfull \hbox (badness 5908) in paragraph at lines 171--172
-\OT1/cmr/m/n/10 ligula varius diam, a luctus ante quam vitae
- []
-
-No file BruteForceDictMitigation.bbl.
-[3
 
 ] (BruteForceDictMitigation.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 5647 strings out of 474486
- 95354 string characters out of 5743754
- 1947542 words of memory out of 5000000
- 27880 multiletter control sequences out of 15000+600000
- 563936 words of font info for 56 fonts, out of 8000000 for 9000
+ 5591 strings out of 474486
+ 94469 string characters out of 5743754
+ 1937542 words of memory out of 5000000
+ 27833 multiletter control sequences out of 15000+600000
+ 560982 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,93p,762b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\joaog\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on BruteForceDictMitigation.pdf (3 pages, 153759 bytes).
+ 87i,7n,93p,640b,217s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on BruteForceDictMitigation.pdf (1 page, 101808 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
