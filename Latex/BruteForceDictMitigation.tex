@@ -76,12 +76,10 @@ Analysis of what was done before
 Short description of what is a mitigation strategie
 
 \subsection{Account Lockouts}
-
 Account lockout mechanisms are a security methods designed to restrain brute-force attacks by temporarily disabling accounts after a pre-agreed number of failed login attempts. This proceeds towards limit the number of guesses an attacker can make, by that means reducing the likelihood of unauthorized access. Nevertheless, while efficient mitigating brute-force attacks, they can still be exploited to launch denial-of-service (DOS) attacks, making legitimate useres unable to access their accounts. Research highlights that attackers can intentionally trigger account lockouts.\cite{account_lockout_dos} To make the security and usability in homeostasis, it is recommended to implement adaptive lockout policies that consider factors such as the user's typical behavior and the context of the login attempts. For instance, the Open Web Application Security Project (OWASP) suggests that while accounts are in lockout stage, they can prevent brute-force attacks, they should be configured to minimize the risk of being leveraged for DoS attacks \cite{blocking_brute_force} In conclusion, account lockout policies are a must have tool in defending against brute-force attacks but must be carefully configured to avoid unwanted consequences, such as DoS.
+
 \subsection{Captcha}
-
-Side bard captcha to prevent software to imitate human behavior, such as bots or botnets
-
+CAPTCHAs, Completely Automated Public Turing tests to tell Computers and Humans Apart, are commonly used to distinguish human users from bots, thereby mitigating automatic attacks such as brute-force login attempts. By handing over challenges that are easy for humans but difficult for machines, CAPTCHAs can block bots from completing password guesses. However, CAPTCHAs are not absolute on the prevention of those attacks. Studies have shown that particular CAPTCHA systems, mainly those with low complexity or predictable patterns, can be vulnerable to automatic solving strategies. \cite{captcha_description} As wel, the usability of CAPTCHAs is a critical consideration. The complexity of CAPTCHA can frustrate legitimate users, leading to a negative user experience, and can also make the system vulnerable. Therefore, while CAPTCHA can serve as a brake on brute-force attacks, balacing security needs with user accessibility. On top of that, CAPTCHAs should not be used as single and high-handed security measure, other methods should be used at the same time to provide a more robust security. \cite{captcha_types} 
 
 \subsection{Multi-factor Authentication}
 Multi-factor authentication most known as "MFA" enhances security by requiring useres to provide more than one form of verification, usually 2 to 3 ways of verification, before accessing a system. By combining something the user knows, something they have, or something they are, MFA adds layers of protection that forbid unauthorized access. Research indicates that implementing MFA can block over 99.9\% of account compromising attacks, including brute-force and dictionary attempts.\cite{mfa_effectiveness} Within the frame of brute-force attacks, where attackers widely attempt various password combinations to gain unauthorized acess, MFA serves as a tough brake. Even if an attacker is sucessfull guessing a password, the aditional verification factors required by MFA, prevent unauthorized entries. This multi-layered system ensures that the compromise of a single factor does not grant access, thus significantly enhancing security.\cite{mfa_brute_force} For that reason, adopting MFA is a crucial strategy to mitage risks associated with brute-force attacks, ensuring that only authorized userss can access sensitive systems and informations.
@@ -94,7 +92,6 @@ Salting is a securtiy method that consists in adding a unique, random value as a
 
 \section{Conclusion}
 
-\section{References}
 \begin{thebibliography}{99}
 
   %Account lockout
@@ -103,6 +100,15 @@ Salting is a securtiy method that consists in adding a unique, random value as a
 
   \bibitem{blocking_brute_force} Blocking Brute Force Attacks
   \textit{Esheridan}, \url{https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks}
+
+  %Captcha
+
+  \bibitem{captcha_description} Practicality analysis of utilizing text-based CAPTCHA vs. graphic-based CAPTCHA authentication
+  \textit{Spring Nature Link}, \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC10152023/}.
+
+  \bibitem{captcha_types} CAPTCHA Types and Breaking Techniques: Design Issues, Challenges, and Future Research Directions
+  \textit{Cornell University}, \url{https://arxiv.org/abs/2307.10239}
+  
 
   %Multi-factor authentication
   \bibitem{mfa_effectiveness} How effective is multifactor authentication at deterring cyberattacks? 
