@@ -72,8 +72,14 @@ How the Dictionary Approach happened
 Analysis of what was done before
 
 \section{Mitigation Strategies}
+Mitigation strategies are measures implemented to reduce and banish risks from cyber threats, such as brute-force and dictionary attacks. The main goal is to protect sensitive systems, accounts and data while making sure legitimate users have their accessibility secured. The strategies are essential for the modern world, where attackers are increasingly using revolutionary methods to exploit vulnerabilities.
 
-Short description of what is a mitigation strategie
+
+\begin{itemize}
+  \item Prevention: MFA and password salting make attacks more difficult by increasing complexity;
+  \item Detection: Captcha and monitoring detect suspicious activities;
+  \item Response: Account lockouts limit the impact of ongoing attacks
+\end{itemize}
 
 \subsection{Account Lockouts}
 Account lockout mechanisms are a security methods designed to restrain brute-force attacks by temporarily disabling accounts after a pre-agreed number of failed login attempts. This proceeds towards limit the number of guesses an attacker can make, by that means reducing the likelihood of unauthorized access. Nevertheless, while efficient mitigating brute-force attacks, they can still be exploited to launch denial-of-service (DOS) attacks, making legitimate useres unable to access their accounts. Research highlights that attackers can intentionally trigger account lockouts.\cite{account_lockout_dos} To make the security and usability in homeostasis, it is recommended to implement adaptive lockout policies that consider factors such as the user's typical behavior and the context of the login attempts. For instance, the Open Web Application Security Project (OWASP) suggests that while accounts are in lockout stage, they can prevent brute-force attacks, they should be configured to minimize the risk of being leveraged for DoS attacks \cite{blocking_brute_force} In conclusion, account lockout policies are a must have tool in defending against brute-force attacks but must be carefully configured to avoid unwanted consequences, such as DoS.
@@ -89,6 +95,10 @@ Password lenght is a critical factor to defend against brute-force attacks, wher
 
 \subsection{SALT}
 Salting is a securtiy method that consists in adding a unique, random value as a "salt" to each user's password before hashing. This procedure guarantees that even identical passwords result in distinct hash outputs, mitigating efficiently the risk of precomputed attacks such as rainbow tables. By embracing salts, attackers are compelled to compute the has for each password attempt individually, notably increasing the computational effort required for a successful attack. Research indicates that salting, when hashing, empowers password security by preventing attackers from leveraging precomputed hash databases. \cite{salting_description} Besides, studies have exhibiting that salting, when hashing, provides strong defense against dictionary and brute-force attacks. The addition of salt to passwords increases the complexity of the hashed output, making it more challenging for attackers to crack passwords using pre assembled tables and systems. \cite{salting_algo} For that reason, salting techniques are fundamental practices in enhancing password security and protecting against unauthorized access.
+
+\subsection{Monitoring and Server Logs}
+
+Monitoring server logs
 
 \section{Conclusion}
 
