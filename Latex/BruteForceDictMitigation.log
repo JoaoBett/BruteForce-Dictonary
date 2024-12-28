@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.27)  28 DEC 2024 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.27)  28 DEC 2024 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,6 +390,46 @@ Underfull \hbox (badness 5064) in paragraph at lines 109--111
 []\OT1/cmr/m/n/9 Multi-Factor Credential Hashing for Asymmetric
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+\OT1/cmr/m/n/9 To Im-prove Hash Al-go-ri-thm Se-cu-rity \OT1/cmr/m/it/9 The-Sai\OT1/cmr/m/n/9 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+[]$\OT1/cmtt/m/n/9 https : / / thesai . org / Downloads / Volume10No11 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+\OT1/cmtt/m/n/9 Paper _ 58-[]Analysis _ of _ Password _ and _ Salt _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+[]\OT1/cmr/m/n/9 Enhancing Sal-ted Pas-sword Ha-shing Te-ch-nique
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 115--117
+\OT1/cmr/m/n/9 Using Swa-pping Ele-ments in an Ar-ray Al-go-ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+\OT1/cmr/m/n/9 thm \OT1/cmr/m/it/9 Re-se-ar-chGate\OT1/cmr/m/n/9 , []$\OT1/cmtt/m/n/9 https : / / www . researchgate .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+\OT1/cmtt/m/n/9 net / publication / 352312164 _ Enhancing _ Salted _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+\OT1/cmtt/m/n/9 Password _ Hashing _ Technique _ Using _ Swapping _
+ []
+
 No file BruteForceDictMitigation.bbl.
 [2] (BruteForceDictMitigation.aux)
  ***********
@@ -400,17 +440,17 @@ Package rerunfilecheck Info: File `BruteForceDictMitigation.out' has not changed
 (rerunfilecheck)             Checksum: B4420A846F7D1A9602B6867C47310F49;1847.
  ) 
 Here is how much of TeX's memory you used:
- 11941 strings out of 474486
- 195428 string characters out of 5743754
+ 11946 strings out of 474486
+ 195519 string characters out of 5743754
  1945542 words of memory out of 5000000
- 34065 multiletter control sequences out of 15000+600000
+ 34068 multiletter control sequences out of 15000+600000
  562219 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,93p,1266b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on BruteForceDictMitigation.pdf (2 pages, 149737 bytes).
+Output written on BruteForceDictMitigation.pdf (2 pages, 158781 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

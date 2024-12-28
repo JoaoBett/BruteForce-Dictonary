@@ -90,7 +90,7 @@ Multi-factor authentication most known as "MFA" enhances security by requiring u
 Password lenght is a critical factor to defend against brute-force attacks, where attackers can attempt multiple times all possible to estimate a password. The longer the passwords the longer it takes to be deciphered, increasing the number of potential combinations. Refering to a study analyzing real-world passwords found that shorter passwords are more receptive to brute-force attacks. with over 11\% of them being cracked. \cite{password_lenght} In addition , research indicates that a significant portion of compromised passwords are under 12 characters, suggesting that increasing password lenght can improve resistance to these attacks. \cite{specops} For that reason, enforcing longer password policies is an effective strategy to mitage the risk of digital break-ins. 
 
 \subsection{SALT}
-adding salt to when a password is hashed in the database
+Salting is a securtiy method that consists in adding a unique, random value as a "salt" to each user's password before hashing. This procedure guarantees that even identical passwords result in distinct hash outputs, mitigating efficiently the risk of precomputed attacks such as rainbow tables. By embracing salts, attackers are compelled to compute the has for each password attempt individually, notably increasing the computational effort required for a successful attack. Research indicates that salting, when hashing, empowers password security by preventing attackers from leveraging precomputed hash databases. \cite{salting_description} Besides, studies have exhibiting that salting, when hashing, provides strong defense against dictionary and brute-force attacks. The addition of salt to passwords increases the complexity of the hashed output, making it more challenging for attackers to crack passwords using pre assembled tables and systems. \cite{salting_algo} For that reason, salting techniques are fundamental practices in enhancing password security and protecting against unauthorized access.
 
 \section{Conclusion}
 
@@ -106,8 +106,14 @@ adding salt to when a password is hashed in the database
   \bibitem{mfa_effectiveness} How effective is multifactor authentication at deterring cyberattacks? 
   \textit{Cornell University}, \url{https://arxiv.org/abs/2305.00945}.
   
-  \bibitem{mfa_brute_force} Multi-Factor Credential Hashing for Asymmetric Brute-Force Attack Resistance. 
+  \bibitem{mfa_brute_force} Multi-Factor Credential Hashing for Asymmetric Brute-Force Attack Resistance.
   \textit{Cornell University}, \url{https://arxiv.org/abs/2306.08169v1}.
+
+  \bibitem{salting_description} Analysis of Password and Salt Combination Scheme To Improve Hash Algorithm Security
+  \textit{TheSai}, \url{https://thesai.org/Downloads/Volume10No11/Paper_58-Analysis_of_Password_and_Salt_Combination_Scheme.pdf}.
+
+  \bibitem{salting_algo} Enhancing Salted Password Hashing Technique Using Swapping Elements in an Array Algorithm
+  \textit{ResearchGate}, \url{https://www.researchgate.net/publication/352312164_Enhancing_Salted_Password_Hashing_Technique_Using_Swapping_Elements_in_an_Array_Algorithm}.
   
 \end{thebibliography}
 
