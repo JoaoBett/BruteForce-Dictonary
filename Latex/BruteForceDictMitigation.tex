@@ -5,6 +5,7 @@
 \usepackage{booktabs}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{caption}
+\usepackage{hyperref}
 
 
 \captionsetup{
@@ -83,14 +84,10 @@ Side bard captcha to prevent software to imitate human behavior, such as bots or
 
 
 \subsection{Multi-factor Authentication}
-
-Multi-factor authentication most known as "MFA" enhances security by requiring useres to provide more than one form of verification, usually 2 to 3 ways of verification, before accessing a system. By combining something the user knows, something they have, or something they are, MFA adds layers of protection that forbid unauthorized access. Research indicates that implementing MFA can block over 99.9\% of account compromising attacks, including brute-force and dictionary attempts.[10]
-Within the frame of brute-force attacks, where attackers widely attempt various password combinations to gain unauthorized acess, MFA serves as a tough brake. Even if an attacker is sucessfull guessing a password, the aditional verification factors required by MFA, prevent unauthorized entries. This multi-layered system ensures that the compromise of a single factor does not grant access, thus significantly enhancing security.[11]
-For that reason, adopting MFA is a crucial strategy to mitage risks associated with brute-force attacks, ensuring that only authorized userss can access sensitive systems and informations.[10]
+Multi-factor authentication most known as "MFA" enhances security by requiring useres to provide more than one form of verification, usually 2 to 3 ways of verification, before accessing a system. By combining something the user knows, something they have, or something they are, MFA adds layers of protection that forbid unauthorized access. Research indicates that implementing MFA can block over 99.9\% of account compromising attacks, including brute-force and dictionary attempts.\cite{mfa_effectiveness} Within the frame of brute-force attacks, where attackers widely attempt various password combinations to gain unauthorized acess, MFA serves as a tough brake. Even if an attacker is sucessfull guessing a password, the aditional verification factors required by MFA, prevent unauthorized entries. This multi-layered system ensures that the compromise of a single factor does not grant access, thus significantly enhancing security.[11]\cite{mfa_brute_force} For that reason, adopting MFA is a crucial strategy to mitage risks associated with brute-force attacks, ensuring that only authorized userss can access sensitive systems and informations.
 
 \subsection{Password lenght}
-
-password lenght from 15-25
+Password lenght is a critical factor to defend against brute-force attacks, where attackers can attempt multiple times all possible to estimate a password. The longer the passwords the longer it takes to be deciphered, increasing the number of potential combinations. Refering to a study analyzing real-world passwords found that shorter passwords are more receptive to brute-force attacks. with over 11\% of them being cracked. \cite{password_lenght} In addition , research indicates that a significant portion of compromised passwords are under 12 characters, suggesting that increasing password lenght can improve resistance to these attacks. \cite{specops} For that reason, enforcing longer password policies is an effective strategy to mitage the risk of digital break-ins. 
 
 \subsection{SALT}
 adding salt to when a password is hashed in the database
@@ -98,10 +95,21 @@ adding salt to when a password is hashed in the database
 \section{Conclusion}
 
 \section{References}
-[10]How effective is multifactor authentication at deterring cyberattacks? https://arxiv.org/abs/2305.00945 CORNELL UNIVERSITY
+\begin{thebibliography}{99}
 
-[11]Multi-Factor Credential Hashing for Asymmetric Brute-Force Attack Resistance https://arxiv.org/abs/2306.08169v1 CORNELL UNIVERSITY
+  \bibitem{password_lenght} Password Cracking with Brute Force Algorithm and Dictionary Attack Using Parallel Programming
+  \textit{MDPI}, \url {https://www.mdpi.com/2076-3417/13/10/5979}
 
+  \bibitem{specops} Do longer passwords protect you from compromise?
+  \textit{specops}, \url {https://specopssoft.com/blog/longer-passwords-protect-compromise/}
+
+  \bibitem{mfa_effectiveness} How effective is multifactor authentication at deterring cyberattacks? 
+  \textit{Cornell University}, \url{https://arxiv.org/abs/2305.00945}.
+  
+  \bibitem{mfa_brute_force} Multi-Factor Credential Hashing for Asymmetric Brute-Force Attack Resistance. 
+  \textit{Cornell University}, \url{https://arxiv.org/abs/2306.08169v1}.
+  
+\end{thebibliography}
 
 
 \bibliographystyle{compj}
