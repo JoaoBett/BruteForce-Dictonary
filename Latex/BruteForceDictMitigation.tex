@@ -76,15 +76,15 @@ Analysis of what was done before
 Short description of what is a mitigation strategie
 
 \subsection{Account Lockouts}
-After X number of attempts locks and account
 
+Account lockout mechanisms are a security methods designed to restrain brute-force attacks by temporarily disabling accounts after a pre-agreed number of failed login attempts. This proceeds towards limit the number of guesses an attacker can make, by that means reducing the likelihood of unauthorized access. Nevertheless, while efficient mitigating brute-force attacks, they can still be exploited to launch denial-of-service (DOS) attacks, making legitimate useres unable to access their accounts. Research highlights that attackers can intentionally trigger account lockouts.\cite{account_lockout_dos} To make the security and usability in homeostasis, it is recommended to implement adaptive lockout policies that consider factors such as the user's typical behavior and the context of the login attempts. For instance, the Open Web Application Security Project (OWASP) suggests that while accounts are in lockout stage, they can prevent brute-force attacks, they should be configured to minimize the risk of being leveraged for DoS attacks \cite{blocking_brute_force} In conclusion, account lockout policies are a must have tool in defending against brute-force attacks but must be carefully configured to avoid unwanted consequences, such as DoS.
 \subsection{Captcha}
 
 Side bard captcha to prevent software to imitate human behavior, such as bots or botnets
 
 
 \subsection{Multi-factor Authentication}
-Multi-factor authentication most known as "MFA" enhances security by requiring useres to provide more than one form of verification, usually 2 to 3 ways of verification, before accessing a system. By combining something the user knows, something they have, or something they are, MFA adds layers of protection that forbid unauthorized access. Research indicates that implementing MFA can block over 99.9\% of account compromising attacks, including brute-force and dictionary attempts.\cite{mfa_effectiveness} Within the frame of brute-force attacks, where attackers widely attempt various password combinations to gain unauthorized acess, MFA serves as a tough brake. Even if an attacker is sucessfull guessing a password, the aditional verification factors required by MFA, prevent unauthorized entries. This multi-layered system ensures that the compromise of a single factor does not grant access, thus significantly enhancing security.[11]\cite{mfa_brute_force} For that reason, adopting MFA is a crucial strategy to mitage risks associated with brute-force attacks, ensuring that only authorized userss can access sensitive systems and informations.
+Multi-factor authentication most known as "MFA" enhances security by requiring useres to provide more than one form of verification, usually 2 to 3 ways of verification, before accessing a system. By combining something the user knows, something they have, or something they are, MFA adds layers of protection that forbid unauthorized access. Research indicates that implementing MFA can block over 99.9\% of account compromising attacks, including brute-force and dictionary attempts.\cite{mfa_effectiveness} Within the frame of brute-force attacks, where attackers widely attempt various password combinations to gain unauthorized acess, MFA serves as a tough brake. Even if an attacker is sucessfull guessing a password, the aditional verification factors required by MFA, prevent unauthorized entries. This multi-layered system ensures that the compromise of a single factor does not grant access, thus significantly enhancing security.\cite{mfa_brute_force} For that reason, adopting MFA is a crucial strategy to mitage risks associated with brute-force attacks, ensuring that only authorized userss can access sensitive systems and informations.
 
 \subsection{Password lenght}
 Password lenght is a critical factor to defend against brute-force attacks, where attackers can attempt multiple times all possible to estimate a password. The longer the passwords the longer it takes to be deciphered, increasing the number of potential combinations. Refering to a study analyzing real-world passwords found that shorter passwords are more receptive to brute-force attacks. with over 11\% of them being cracked. \cite{password_lenght} In addition , research indicates that a significant portion of compromised passwords are under 12 characters, suggesting that increasing password lenght can improve resistance to these attacks. \cite{specops} For that reason, enforcing longer password policies is an effective strategy to mitage the risk of digital break-ins. 
@@ -97,18 +97,28 @@ Salting is a securtiy method that consists in adding a unique, random value as a
 \section{References}
 \begin{thebibliography}{99}
 
-  \bibitem{password_lenght} Password Cracking with Brute Force Algorithm and Dictionary Attack Using Parallel Programming
-  \textit{MDPI}, \url {https://www.mdpi.com/2076-3417/13/10/5979}
+  %Account lockout
+  \bibitem{account_lockout_dos} Account Lockouts: Characterizing and Preventing Account Denial-of-Service Attacks
+  \textit{Worcester Polytechnic Institute and Oak Ridge National Laboratory}, \url{https://web.cs.wpi.edu/~cshue/research/securecomm.19.lockouts.pdf}.
 
-  \bibitem{specops} Do longer passwords protect you from compromise?
-  \textit{specops}, \url {https://specopssoft.com/blog/longer-passwords-protect-compromise/}
+  \bibitem{blocking_brute_force} Blocking Brute Force Attacks
+  \textit{Esheridan}, \url{https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks}
 
+  %Multi-factor authentication
   \bibitem{mfa_effectiveness} How effective is multifactor authentication at deterring cyberattacks? 
   \textit{Cornell University}, \url{https://arxiv.org/abs/2305.00945}.
   
   \bibitem{mfa_brute_force} Multi-Factor Credential Hashing for Asymmetric Brute-Force Attack Resistance.
   \textit{Cornell University}, \url{https://arxiv.org/abs/2306.08169v1}.
 
+  %password lenght
+  \bibitem{password_lenght} Password Cracking with Brute Force Algorithm and Dictionary Attack Using Parallel Programming
+  \textit{MDPI}, \url {https://www.mdpi.com/2076-3417/13/10/5979}
+
+  \bibitem{specops} Do longer passwords protect you from compromise?
+  \textit{specops}, \url {https://specopssoft.com/blog/longer-passwords-protect-compromise/}
+
+  %salting
   \bibitem{salting_description} Analysis of Password and Salt Combination Scheme To Improve Hash Algorithm Security
   \textit{TheSai}, \url{https://thesai.org/Downloads/Volume10No11/Paper_58-Analysis_of_Password_and_Salt_Combination_Scheme.pdf}.
 
