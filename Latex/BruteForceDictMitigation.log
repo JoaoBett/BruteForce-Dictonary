@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.27)  1 JAN 2025 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.27)  1 JAN 2025 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,89 +367,101 @@ Class cj Warning: No received date.
 
 Class cj Warning: No accepted date.
 
+
+Underfull \hbox (badness 5726) in paragraph at lines 62--63
+\OT1/cmr/m/n/10 finding the correct one. This method is is
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 62--63
+\OT1/cmr/m/n/10 methodical and guarantees success if there are
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 62--63
+\OT1/cmr/m/n/10 are elementary in theory, their effectiveness is
+ []
+
 [1{C:/Users/joaog/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \OT1/cmr/m/n/10 Multi-factor authen-ti-ca-tion most known as
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 91--92
+Underfull \hbox (badness 6428) in paragraph at lines 87--88
 \OT1/cmr/m/n/10 "MFA"enhances se-cu-rity by re-qui-ring use-res to
  []
 
-
-Underfull \vbox (badness 5519) has occurred while \output is active []
-
- [2]
+[2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 108.
+(Font)              <9> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 108.
+(Font)              <6> on input line 104.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 []\OT1/cmr/m/n/9 Blocking Brute Force At-tacks \OT1/cmr/m/it/9 Eshe-ri-dan\OT1/cmr/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 []$\OT1/cmtt/m/n/9 https : / / owasp . org / www-[]community / controls /
  []
 
 
-Underfull \hbox (badness 5064) in paragraph at lines 126--128
+Underfull \hbox (badness 5064) in paragraph at lines 122--124
 []\OT1/cmr/m/n/9 Multi-Factor Credential Hashing for Asymmetric
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 \OT1/cmr/m/n/9 To Im-prove Hash Al-go-ri-thm Se-cu-rity \OT1/cmr/m/it/9 The-Sai\OT1/cmr/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 []$\OT1/cmtt/m/n/9 https : / / thesai . org / Downloads / Volume10No11 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 \OT1/cmtt/m/n/9 Paper _ 58-[]Analysis _ of _ Password _ and _ Salt _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 []\OT1/cmr/m/n/9 Enhancing Sal-ted Pas-sword Ha-shing Te-ch-nique
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 140--142
+Underfull \hbox (badness 5374) in paragraph at lines 136--138
 \OT1/cmr/m/n/9 Using Swa-pping Ele-ments in an Ar-ray Al-go-ri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmr/m/n/9 thm \OT1/cmr/m/it/9 Re-se-ar-chGate\OT1/cmr/m/n/9 , []$\OT1/cmtt/m/n/9 https : / / www . researchgate .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmtt/m/n/9 net / publication / 352312164 _ Enhancing _ Salted _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmtt/m/n/9 Password _ Hashing _ Technique _ Using _ Swapping _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 \OT1/cmr/m/n/9 tacks \OT1/cmr/m/it/9 Re-se-ar-chGate\OT1/cmr/m/n/9 , []$\OT1/cmtt/m/n/9 https : / / www . researchgate .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 \OT1/cmtt/m/n/9 net / publication / 361105775 _ Realtime _ Risk _
  []
 
@@ -460,18 +472,18 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `BruteForceDictMitigation.out' has not changed.
-(rerunfilecheck)             Checksum: EDA3F69B3C132D59013D3530A565DECF;1950.
+(rerunfilecheck)             Checksum: D8A6FB3EBD1F19A1D2FDDF710DD050D8;1869.
  ) 
 Here is how much of TeX's memory you used:
  11964 strings out of 474486
  195883 string characters out of 5743754
- 1943542 words of memory out of 5000000
+ 1947542 words of memory out of 5000000
  34078 multiletter control sequences out of 15000+600000
  562554 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,9n,93p,1367b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,9n,93p,1653b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\joaog\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/joaog/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on BruteForceDictMitigation.pdf (3 pages, 176784 bytes).
+Output written on BruteForceDictMitigation.pdf (3 pages, 178066 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)

@@ -55,17 +55,13 @@ This study investigates the mechanics of brute-force and dictionary attacks, dem
 
 Attacks... 
 
-\subsection{Regular Expressions}
+\subsection{Methodology}
 
-Regular Expressions and What was used in this project
-
+Methodology...
 \subsection{Brute-force Approach}
+Brute-force attacks usually involve a trial-and-error approach used to gain acess to unauthorized systems, attempting every possible password combination until finding the correct one. This method is  is methodical and guarantees success if there are enough time and resources available, making it an essential technique in cyberwarfares. The complexity of the attack depends on the character set and length of the target. By including uppercase and lowercase letters, numbers, special symbols and other characters, the number of potential combinations increases exponentially, prolonging the time required for a successful attack.  While Brute-force attacks are elementary in theory, their effectiveness is often limited by pratical components, such as time, computational power, or security measures like account lockouts after several failed attempts. Nonetheless, attackers can bypass these limitations using distributed networks of computers, most know as botnets, or leveraging advanced tools like GPUs for faster computations. Brute-force attacks are commonly used in specific scenarios, such as bypassing login systems, cracking encrypted files, or retrieving Wi-Fi passwords. Although they are less efficient than more targeted methods, like dictionary attacks, brute-force attacks are essential for testing password security and identifying vulnerabilities in systems. Despite that, this attack remains one of the most critical strategies for gaining unauthorized access to systems, making it a significant threat to digital security.
 
-How the Brute-force Approach happened
-
-\subsection{Dictionary attack Approach}
-
-How the Dictionary Approach happened
+\subsection{Dictionary Approach}
 
 \section{Analysis}
 
@@ -97,7 +93,7 @@ Password lenght is a critical factor to defend against brute-force attacks, wher
 Salting is a securtiy method that consists in adding a unique, random value as a "salt" to each user's password before hashing. This procedure guarantees that even identical passwords result in distinct hash outputs, mitigating efficiently the risk of precomputed attacks such as rainbow tables. By embracing salts, attackers are compelled to compute the has for each password attempt individually, notably increasing the computational effort required for a successful attack. Research indicates that salting, when hashing, empowers password security by preventing attackers from leveraging precomputed hash databases. \cite{salting_description} Besides, studies have exhibiting that salting, when hashing, provides strong defense against dictionary and brute-force attacks. The addition of salt to passwords increases the complexity of the hashed output, making it more challenging for attackers to crack passwords using pre assembled tables and systems. \cite{salting_algo} For that reason, salting techniques are fundamental practices in enhancing password security and protecting against unauthorized access.
 
 \subsection{Monitoring and Server Logs}
-Monitoring server logs is a critical element in defending against brute-force attacks. By analyzing logs, administrators can expose patterns that indicate such attacks, being able to block and prevent unauthorized access. Server logs are a valuable resource for identifying and responding to security threats.  Regular monitoring of Logs can help detect unusual patterns, such as a high number of failed login attempts or multiple accounts targeted in a short period. These anomalies often indicate brute-force attacks.  Real-time log analysis tools can provide insights into ongoing attacks, leading administrators to take immediate action to block malicious actors. For example, monitoring SSH logs can help detect and block brute-force attacks in real-time, preventing unauthorized access to systems. \cite{blocking_brute_force} Moreover, monitoring server logs can help identify vulnerabilities in password systems, such as weak passwords or outdated authentication methods. Research on brute-force attack patterns in IoT networks demonstrates that time-sensitive statistical analysis of log data can uncover attack strategies, informing the development of more robust defenses.\cite{brute_force_patterns}
+Monitoring server logs is a critical element in defending against brute-force attacks. By analyzing logs, administrators can expose patterns that indicate such attacks, being able to block and prevent unauthorized access. Server logs are a valuable resource for identifying and responding to security threats.  Regular monitoring of Logs can help detect unusual patterns, such as a high number of failed login attempts or multiple accounts targeted in a short period. These anomalies often indicate brute-force attacks.  Real-time log analysis tools can provide insights into ongoing attacks, leading administrators to take immediate action to block malicious actors. For example, monitoring SSH logs can help detect and block brute-force attacks in real-time, preventing unauthorized access to systems. \cite{risk_monitoring} Moreover, monitoring server logs can help identify vulnerabilities in password systems, such as weak passwords or outdated authentication methods. Research on brute-force attack patterns in IoT networks demonstrates that time-sensitive statistical analysis of log data can uncover attack strategies, informing the development of more robust defenses.\cite{brute_force_patterns}
 
 \section{Conclusion}
 
