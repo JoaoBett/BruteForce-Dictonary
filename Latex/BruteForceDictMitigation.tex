@@ -7,6 +7,7 @@
 \usepackage{caption}
 \usepackage{hyperref}
 \usepackage{tikz}
+\usepackage{graphicx}  % For the resizebox command
 
 %Flowchart
 \usetikzlibrary{shapes.geometric, arrows}
@@ -61,11 +62,8 @@ This study investigates the mechanics of brute-force and dictionary attacks, dem
 
 \section{Execution of the Attacks}
 
-Attacks... 
+Attacks...
 
-\subsection{Methodology}
-
-Methodology...
 \subsection{Brute-force Approach}
 Brute-force attacks usually involve a trial-and-error approach used to gain acess to unauthorized systems, attempting every possible password combination until finding the correct one. This method is  is methodical and guarantees success if there are enough time and resources available, making it an essential technique in cyberwarfares. The complexity of the attack depends on the character set and length of the target. By including uppercase and lowercase letters, numbers, special symbols and other characters, the number of potential combinations increases exponentially, prolonging the time required for a successful attack.  While Brute-force attacks are elementary in theory, their effectiveness is often limited by pratical components, such as time, computational power, or security measures like account lockouts after several failed attempts. Nonetheless, attackers can bypass these limitations using distributed networks of computers, most know as botnets, or leveraging advanced tools like GPUs for faster computations. Brute-force attacks are commonly used in specific scenarios, such as bypassing login systems, cracking encrypted files, or retrieving Wi-Fi passwords. Although they are less efficient than more targeted methods, like dictionary attacks, brute-force attacks are essential for testing password security and identifying vulnerabilities in systems. Despite that, this attack remains one of the most critical strategies for gaining unauthorized access to systems, making it a significant threat to digital security.
 
@@ -88,13 +86,24 @@ Usually there are some scenarios where brute-force attacks are more likely to be
 \end{itemize}
 
 \subsection*{Tools}
+Brute-force attacks often require specific tools built to efficiently try countless password combinations. Most widely know tools:
 
+\begin{itemize}
+  \item Hydra
+  \begin{itemize}
+    \item Highly verstaile and efficient password-cracking tool
+    \item Supports a wide range of protocols, HTTP, FTP, SSH, MySQL, SMTP, and more.
+    \item Operates by taking wordlists and generating password combinations and systematically trying them against the target.
+  \end{itemize}  
+  \item John the Ripper(JTR)
+  \begin{itemize}
+    \item Optimized for speed and support a variety of hasing algorithms, such as MD5, SHA, and bcrypt
+    \item Hash focused.
+    \item Widely used for reasearch and testing password strength in operating systems, databases, and other applications.
+  \end{itemize}
+\end{itemize}
 
-
-
-
-
-
+For this study, the chosen tool was Hydra, due to its versatility and support for various protocols. This tool was configured to test password combinations against a weakly secured login system, sucefully demonstrating how vulnerable and comprimised it can be.
 
 \subsection{Brute-Force Attack Process Flowchart}
 
@@ -120,12 +129,24 @@ Usually there are some scenarios where brute-force attacks are more likely to be
 
 \subsection{Dictionary Approach}
 
-
-
-
-
-
-
+Dictionary attack is a method of attacking cybersecurity that relies on a pre-established list of potential passwords, most known as a "dictionary". Unlike brute-force attacks, dictionary attacks focus on the assumption that the password is weak and common. This method peaks in effiency when users choose simple passwords based on common words, phrases or patterns.
+\begin{table}[ht]
+  \centering
+  \resizebox{0.5\textwidth}{!}{ 
+    \begin{tabular}{@{}p{2.5cm} p{4cm} p{4cm}@{}}
+      \toprule
+      \textbf{Aspect} & \textbf{Brute-Force} & \textbf{Dictionary} \\ 
+      \midrule
+      Speed & Slow, tests all combinations. & Faster, skips unlikely combinations. \\ 
+      Coverage & Comprehensive, guarantees success if time permits. & Limited by dictionary size and quality. \\ 
+      Assumptions & No assumptions needed about the password. & Assumes password is common or predictable. \\ 
+      Efficiency & Inefficient for long, complex passwords. & Efficient for weak or common passwords. \\ 
+      Customization & Difficult to target specific users. & Can be tailored for specific users. \\ 
+      Defense & Strong passwords and lockout mechanisms. & Unique and complex passwords help. \\ 
+      \bottomrule
+    \end{tabular}
+  }
+\end{table}
 
 \subsection{Dictionary Attack Process Flowchart}
 
@@ -148,6 +169,10 @@ Usually there are some scenarios where brute-force attacks are more likely to be
   \draw [arrow] (repeat.west) -- ++(-2,0) |- (test.west);
   
 \end{tikzpicture}
+
+\subsection{Methodology}
+
+Methodology...
 
 
 \section{Analysis}
